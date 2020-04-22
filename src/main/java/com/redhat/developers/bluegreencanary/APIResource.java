@@ -32,7 +32,7 @@ public class APIResource {
   // String color = "#5bbf45"; // green
   String color = "#f2f25e"; // canary
   // @ConfigProperty(name = "blue-green-canary.message")
-  String hello = "Aloha"
+  String hello = "Aloha";
 
   String hostname = System.getenv().getOrDefault("HOSTNAME", "unknown");
   // Map<String, HttpSession> sessions = new ConcurrentHashMap<>();
